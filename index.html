@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MiQuiz Juego</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Configuración Firebase de tu aplicación web
+      const firebaseConfig = {
+  apiKey: "AIzaSyCk2B0WLIN0zDYcqwAxsd76tvyfuLeoAJQ",
+  authDomain: "viaje-en-globo.firebaseapp.com",
+  databaseURL: "https://viaje-en-globo-default-rtdb.firebaseio.com",
+  projectId: "viaje-en-globo",
+  storageBucket: "viaje-en-globo.appspot.com",
+  messagingSenderId: "1063982109589",
+  appId: "1:1063982109589:web:425937025623830fe71c9c"
+};
+
+
+      // Inicializar Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Inicializar Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+</html>
